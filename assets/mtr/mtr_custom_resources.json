@@ -1,0 +1,20 @@
+{
+	"custom_trains": {
+		"strainmec": {
+			"name": "s_train_small MEC",
+			"color": "3F78C9",
+			"base_train_type": "s_train_small",
+			"texture_id": "mtr:textures/meccopy.png",
+			"bve_sound_base_id": "4eba_4040"
+
+		},
+ 
+		"incheonconnect": {
+			"name": "incheonconnect_c1141a_mini",
+			"color": "66CCFF",
+			"base_train_type": "c1141a_mini",
+			"texture_id": "mtr:textures/ic.png"
+ 
+		}
+	}
+}

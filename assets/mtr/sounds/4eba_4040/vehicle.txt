@@ -1,0 +1,9 @@
+BveTs Vehicle 2.00:utf-8
+
+PerformanceCurve =
+Parameters =
+Panel =
+Sound = sound.cfg
+MotorNoise = motornoise.txt
+Ats32 =
+Ats64 =
