@@ -1,0 +1,242 @@
+{
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.ats_accept": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/ats_accept"
+		]
+	},
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.ats_alert": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/ats_alert"
+		]
+	},
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.buzzer": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/buzzer"
+		]
+	},
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.card_read": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/card_read"
+		]
+	},
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.door_close": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/door_close"
+		]
+	},
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.door_open": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/door_open"
+		]
+	},
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.horn": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/horn"
+		]
+	},
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.horn_loud": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/horn_loud"
+		]
+	},
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.mute": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/mute"
+		]
+	},
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.railroad_crossing": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/railroad_crossing"
+		]
+	},
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.speed_alert": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/speed_alert"
+		]
+	},
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.th_anthem": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/th_anthem"
+		]
+	},
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.whistle": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/whistle"
+		]
+	},
+	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.whistle_confirm": {
+		"sounds": [
+			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/whistle_confirm"
+		]
+	},
+	"melody.adayinmetro": {
+		"sounds": [
+			"melody/adayinmetro"
+		]
+	},
+	"melody.autumn": {
+		"sounds": [
+			"melody/autumn"
+		]
+	},
+	"melody.bell": {
+		"sounds": [
+			"melody/bell"
+		]
+	},
+	"melody.bokudoraemon": {
+		"sounds": [
+			"melody/bokudoraemon"
+		]
+	},
+	"melody.cieloestrellado": {
+		"sounds": [
+			"melody/cieloestrellado"
+		]
+	},
+	"melody.fifa2018": {
+		"sounds": [
+			"melody/fifa2018"
+		]
+	},
+	"melody.fifa2022": {
+		"sounds": [
+			"melody/fifa2022"
+		]
+	},
+	"melody.gaiety": {
+		"sounds": [
+			"melody/gaiety"
+		]
+	},
+	"melody.guidao": {
+		"sounds": [
+			"melody/guidao"
+		]
+	},
+	"melody.guidao_full": {
+		"sounds": [
+			"melody/guidao_full"
+		]
+	},
+	"melody.hanawasaku": {
+		"sounds": [
+			"melody/hanawasaku"
+		]
+	},
+	"melody.haru": {
+		"sounds": [
+			"melody/haru"
+		]
+	},
+	"melody.jrsha": {
+		"sounds": [
+			"melody/jrsha"
+		]
+	},
+	"melody.jrshb": {
+		"sounds": [
+			"melody/jrshb"
+		]
+	},
+	"melody.jrshc": {
+		"sounds": [
+			"melody/jrshc"
+		]
+	},
+	"melody.koisurufortunecookie": {
+		"sounds": [
+			"melody/koisurufortunecookie"
+		]
+	},
+	"melody.legends": {
+		"sounds": [
+			"melody/legends"
+		]
+	},
+	"melody.mayvillage": {
+		"sounds": [
+			"melody/mayvillage"
+		]
+	},
+	"melody.newyear": {
+		"sounds": [
+			"melody/newyear"
+		]
+	},
+	"melody.sakura": {
+		"sounds": [
+			"melody/sakura"
+		]
+	},
+	"melody.sakuraa": {
+		"sounds": [
+			"melody/sakuraa"
+		]
+	},
+	"melody.sakurab": {
+		"sounds": [
+			"melody/sakurab"
+		]
+	},
+	"melody.sakurac": {
+		"sounds": [
+			"melody/sakurac"
+		]
+	},
+	"melody.sakurad": {
+		"sounds": [
+			"melody/sakurad"
+		]
+	},
+	"melody.seseragi": {
+		"sounds": [
+			"melody/seseragi"
+		]
+	},
+	"melody.spring": {
+		"sounds": [
+			"melody/spring"
+		]
+	},
+	"melody.suiko": {
+		"sounds": [
+			"melody/suiko"
+		]
+	},
+	"melody.suiminfusoku": {
+		"sounds": [
+			"melody/suiminfusoku"
+		]
+	},
+	"melody.summer": {
+		"sounds": [
+			"melody/summer"
+		]
+	},
+	"melody.tokyo2020": {
+		"sounds": [
+			"melody/tokyo2020"
+		]
+	},
+	"melody.tokyo2020_v2": {
+		"sounds": [
+			"melody/tokyo2020_v2"
+		]
+	},
+	"melody.watercrown": {
+		"sounds": [
+			"melody/watercrown"
+		]
+	},
+	"melody.winter": {
+		"sounds": [
+			"melody/winter"
+		]
+	},
+	"melody.yumewokanaetedoraemon": {
+		"sounds": [
+			"melody/yumewokanaetedoraemon"
+		]
+	}
+}
