@@ -1,72 +1,72 @@
 {
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.ats_accept": {
+	"ats_accept": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/ats_accept"
+			"ats_accept"
 		]
 	},
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.ats_alert": {
+	"ats_alert": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/ats_alert"
+			"ats_alert"
 		]
 	},
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.buzzer": {
+	"buzzer": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/buzzer"
+			"buzzer"
 		]
 	},
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.card_read": {
+	"card_read": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/card_read"
+			"card_read"
 		]
 	},
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.door_close": {
+	"door_close": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/door_close"
+			"door_close"
 		]
 	},
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.door_open": {
+	"door_open": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/door_open"
+			"door_open"
 		]
 	},
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.horn": {
+	"horn": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/horn"
+			"horn"
 		]
 	},
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.horn_loud": {
+	"horn_loud": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/horn_loud"
+			"horn_loud"
 		]
 	},
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.mute": {
+	"mute": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/mute"
+			"mute"
 		]
 	},
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.railroad_crossing": {
+	"railroad_crossing": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/railroad_crossing"
+			"railroad_crossing"
 		]
 	},
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.speed_alert": {
+	"speed_alert": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/speed_alert"
+			"speed_alert"
 		]
 	},
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.th_anthem": {
+	"th_anthem": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/th_anthem"
+			"th_anthem"
 		]
 	},
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.whistle": {
+	"whistle": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/whistle"
+			"whistle"
 		]
 	},
-	":.Users.phong.Documents.GitHub.BurylandResourcePackNew.assets.minecraft.sounds.whistle_confirm": {
+	"whistle_confirm": {
 		"sounds": [
-			":/Users/phong/Documents/GitHub/BurylandResourcePackNew/assets/minecraft/sounds/whistle_confirm"
+			"whistle_confirm"
 		]
 	},
 	"melody.adayinmetro": {
