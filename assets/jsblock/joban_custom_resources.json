@@ -1,0 +1,10 @@
+{
+  "pids_images": [
+    {
+      "id": "tba_intercity_display",
+      "name": "TBA Intercity Display Arrival (use at dedicated platform)",
+      "thumbnail": "jsblock:textures/thumbnails/tba_intercity_display.png",
+      "scriptFiles": ["jsblock:scripts/tba_intercity_display.js"]
+    }
+  ]
+}

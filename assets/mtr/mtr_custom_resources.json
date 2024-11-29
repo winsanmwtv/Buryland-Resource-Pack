@@ -5,24 +5,16 @@
 			"color": "3F78C9",
 			"base_train_type": "s_train_small",
 			"texture_id": "mtr:textures/meccopy.png",
-			"bveSoundBaseResource": "4eba_4040"
+			"bve_sound_base_id": "4eba_4040"
 
 		},
  
 		"incheonconnect": {
-			"name": "Incheon Connect Class 1141 EMU",
-			"color": "8613FD",
+			"name": "incheonconnect_c1141a_mini",
+			"color": "66CCFF",
 			"base_train_type": "c1141a_mini",
-			"texture_id": "mtr:textures/ic.png",
-			"bveSoundBaseResource": "4eba_4040"
-		},
+			"texture_id": "mtr:textures/ic.png"
  
-		"incheonconnect_dmu": {
-			"name": "Incheon Connect Class 1141 DMU",
-			"color": "8613FD",
-			"base_train_type": "c1141a_mini",
-			"texture_id": "mtr:textures/ic.png",
-			"bveSoundBaseResource": "diesel"
 		}
 	}
 }
