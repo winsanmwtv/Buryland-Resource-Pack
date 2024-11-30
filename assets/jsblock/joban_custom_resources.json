@@ -2,9 +2,34 @@
   "pids_images": [
     {
       "id": "tba_intercity_display",
-      "name": "TBA Intercity Display Arrival (use at dedicated platform)",
+      "name": "TBA Intercity (Platform Display)",
       "thumbnail": "jsblock:textures/thumbnails/tba_intercity_display.png",
       "scriptFiles": ["jsblock:scripts/tba_intercity_display.js"]
+    },{
+      "id": "tba_nothing",
+      "name": "Transport for Buryland Authority",
+      "thumbnail": "jsblock:textures/tba.png",
+      "scriptFiles": ["jsblock:scripts/tba_nothing.js"]
+    },{
+      "id": "tba_notstophere",
+      "name": "TBA Intercity (Not Stop Here)",
+      "thumbnail": "jsblock:textures/tba_intercity_not_stop.png",
+      "scriptFiles": ["jsblock:scripts/tba_notstophere.js"]
+    },{
+      "id": "tba_noboarding",
+      "name": "TBA Intercity (No Boarding)",
+      "thumbnail": "jsblock:textures/tba_intercity_terminates.png",
+      "scriptFiles": ["jsblock:scripts/tba_noboarding.js"]
+    },{
+      "id": "windows_7",
+      "name": "Windows 7 Booting Screen",
+      "thumbnail": "jsblock:textures/windows_7.png",
+      "scriptFiles": ["jsblock:scripts/windows_7.js"]
+    },{
+      "id": "mec_main",
+      "name": "MEC Platform Display",
+      "thumbnail": "jsblock:textures/thumbnails/mec_display_thumbnail.png",
+      "scriptFiles": ["jsblock:scripts/mec_main_display.js"]
     }
   ]
 }

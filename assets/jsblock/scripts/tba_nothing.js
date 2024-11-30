@@ -5,28 +5,9 @@ function create(ctx, state, pids) { // just left it null
 
 function render(ctx, state, pids) {
     Texture.create("Background Image")
-    .texture("jsblock:textures/tba_intercity_display.png")
+    .texture("jsblock:textures/tba.png")
     .size(pids.width, pids.height)
     .draw(ctx);
-
-    let platform = pids.arrivals().get(0);
-    Text.create("Platform")
-    .text("Platform "+platform.platformName())
-    .pos(pids.width - 2, 9)
-    .scale(0.4)
-    .rightAlign()
-    .color(0xFFFFFF)
-    .draw(ctx);
-    
-    renderAd(ctx, pids);
-
-    renderTime(ctx, pids);
-
-    renderCurrentTrain(ctx, pids);
-
-    renderStatus(ctx, pids);
-
-    renderNextTrain(ctx, pids);
 }
 
 function renderCurrentTrain(ctx, pids) {
@@ -66,13 +47,11 @@ function renderCurrentTrain(ctx, pids) {
     .draw(ctx);
 
     if (!departed) {
-        delayText = "At Origin";
-    } else if (delay < 0) {
-        delayText = "Early";
-    } else if (delay <= 15) {
+        delayText = "At Orgin";
+    } else if (delay == 0) {
         delayText = "On-time";
     } else if (delay <= 59) {
-        delayText = "Delayed";
+        delayText = "Slightly delay";
     } else {
         let delayMin = delay/60;
         delayText = PIDSAddon.getETATextMin(Math.floor(delayMin)) +" delayed";
@@ -165,13 +144,11 @@ function renderNextTrain(ctx, pids) {
 
 
         if (!departed[i]) {
-            delayText = "At Origin";
-        } else if (delay[i] < 0) {
-            delayText = "Early";
-        } else if (delay[i] <= 15) {
+            delayText = "At Orgin";
+        } else if (delay[i] == 0) {
             delayText = "On-time";
         } else if (delay[i] <= 59) {
-            delayText = "Delayed";
+            delayText = "Slightly delay";
         } else {
             let delayMin = delay[i]/60;
             delayText = PIDSAddon.getETATextMin(Math.floor(delayMin)) +" delayed";
@@ -214,7 +191,7 @@ function renderAd(ctx, pids) {
     Texture.create("Ad")
     .texture("jsblock:textures/advertise/ad1.png")
     .size(pids.width/2, (pids.height/2)-3.6)
-    .pos(pids.width/2, (pids.height/2)-3.99)
+    .pos(pids.width/2, (pids.height/2)-4)
     .draw(ctx);
 }
 
@@ -283,9 +260,9 @@ const PIDSAddon = {
     },getETATextMin(arrival) {
         if(arrival == 1) { // Less than 2 mins, use non-plural form
             return `${arrival} min`;
-        } else if (arrival < 60) {
+        } else if (arrival <= 60) {
              return `${arrival} mins`;
-         } else if (arrival < 120) {
+         } else if (arrival <= 61) {
             return `${arrival} hr`;
         } else {
             return `${arrival} hrs`;
