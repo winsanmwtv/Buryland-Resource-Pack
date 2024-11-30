@@ -73,7 +73,7 @@ function render(ctx, state, pids) { // do logic here
 
         Text.create("Train Number - Service Company") // train route
         .text(statusText)
-        .pos((pids.width/2)-20, y)
+        .pos((pids.width/2)-12, y)
         .scale(0.7)
         .color(color)
         .centerAlign()
