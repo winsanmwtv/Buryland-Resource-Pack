@@ -30,6 +30,11 @@
       "name": "MEC Platform Display",
       "thumbnail": "jsblock:textures/thumbnails/mec_display_thumbnail.png",
       "scriptFiles": ["jsblock:scripts/mec_main_display.js"]
+    },{
+      "id": "ic_small",
+      "name": "IC Display (PIDS_1A)",
+      "thumbnail": "jsblock:textures/ic/thumbnail.png",
+      "scriptFiles": ["jsblock:scripts/incheon.js"]
     }
   ]
 }
