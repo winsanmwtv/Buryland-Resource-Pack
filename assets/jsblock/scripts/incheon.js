@@ -15,7 +15,7 @@ function render(ctx, state, pids) { // do logic here
     }
 
     let thisStation = trainData[0].route().getPlatforms(); // current station name
-        let whereStation = trainData[0].route().getPlatformIndex(trainData[0].platformId());
+    let whereStation = trainData[0].route().getPlatformIndex(trainData[0].platformId());
 
     Text.create("This Station") // where we're at right now
     .text(TextUtil.getNonCjkParts(thisStation[whereStation].getStationName()))

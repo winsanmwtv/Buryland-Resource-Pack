@@ -35,6 +35,21 @@
       "name": "IC Display (PIDS_1A)",
       "thumbnail": "jsblock:textures/ic/thumbnail.png",
       "scriptFiles": ["jsblock:scripts/incheon.js"]
+    },{
+      "id": "tba_depart",
+      "name": "TBA Departure Board",
+      "thumbnail": "jsblock:textures/konno/tba_departure_board.png",
+      "scriptFiles": ["jsblock:scripts/tba_depart.js"]
+    },{
+      "id": "tba_depart_metro",
+      "name": "TBA Departure Board (Metro)",
+      "thumbnail": "jsblock:textures/konno/tba_departure_board_metro.png",
+      "scriptFiles": ["jsblock:scripts/tba_depart_metro.js"]
+    },{
+      "id": "tba_depart_platform",
+      "name": "TBA Departure Board (Platform)",
+      "thumbnail": "jsblock:textures/konno/tba_departure_board_platform.png",
+      "scriptFiles": ["jsblock:scripts/tba_depart_platform.js"]
     }
   ]
 }
