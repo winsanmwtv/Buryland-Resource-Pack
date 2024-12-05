@@ -1,0 +1,15 @@
+{
+	"custom_trains": {
+		"jsz0alhd_lower":{
+			"color": "3CEBC2",
+			"texture_id": "mtr:z0a/z0alhd.png",
+			"bve_sound_base_id": "203kci",
+			"door_animation_type": "PLUG_SLOW",
+			"has_gangway_connection": false,
+			"rider_offset":-0.8,
+			"model": "mtr:z0a/z0alhd_low.bbmodel",
+			"model_properties": "mtr:z0a/z0alhd.json",
+			"name": "Yutong Bus (LHD)"
+		}
+	}
+}
