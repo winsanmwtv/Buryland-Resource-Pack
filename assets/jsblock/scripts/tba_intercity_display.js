@@ -1,3 +1,4 @@
+// Copyright 2024 TBA and Konno Institute of Digital Technology Noryangjin
 include(Resources.id("jsblock:scripts/pids_util.js")); // Built-in script shipped with JCM
 
 function create(ctx, state, pids) { // just left it null
