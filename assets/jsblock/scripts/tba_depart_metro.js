@@ -115,9 +115,9 @@ function renderArrivals(ctx, pids, trainData, y) {
     if (trainData.deviation()/1000 >= 15 && trainData.deviation()/1000 < 60) statusText = "Delayed";
     else if (trainData.deviation()/1000 >= 60) statusText = ClockFormat.formatSecond(trainData.deviation()/1000)+" delay";
     
-    if ((((trainData.arrivalTime()-Date.now())-20000)/1000)/60 < 4 && (((trainData.arrivalTime()-Date.now())-20000)/1000)/60 >= 1) statusText = "in "+ClockFormat.formatSecond(((trainData.arrivalTime()-Date.now())-20000)/1000);
-    else if ((((trainData.arrivalTime()-Date.now())-20000)/1000)/60 < 1 && (((trainData.arrivalTime()-Date.now())-20000)/1000) > 1) statusText = "Arriving";
-    else if ((((trainData.arrivalTime()-Date.now())-20000)/1000) <= 1) statusText = "Departing";
+    if ((((trainData.arrivalTime()-Date.now()))/1000)/60 < 4 && (((trainData.arrivalTime()-Date.now()))/1000)/60 >= 1) statusText = "in "+ClockFormat.formatSecond(((trainData.arrivalTime()-Date.now()))/1000);
+    else if ((((trainData.arrivalTime()-Date.now()))/1000)/60 < 1 && (((trainData.arrivalTime()-Date.now()))/1000) > 1) statusText = "Arriving";
+    else if ((((trainData.arrivalTime()-Date.now()))/1000) <= 1) statusText = "Departing";
 
     Text.create("status")
         .text(statusText)

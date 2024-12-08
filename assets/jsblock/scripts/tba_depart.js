@@ -122,12 +122,12 @@ function renderArrivals(ctx, pids, trainData, y) {
     }
 
     if (!trainData.terminating()) {
-        if ((((trainData.departureTime()-Date.now())-20000)/1000) > 40 && (((trainData.arrivalTime()-Date.now())-20000)/1000)/60 < 1.5) {
+        if ((((trainData.departureTime()-Date.now()))/1000) > 40 && (((trainData.arrivalTime()-Date.now()))/1000)/60 < 1.5) {
             statusText = "Boarding";
             pillColor = 0xE58A00;
             pillEmpty = false;
             statusTextColor = 0x2B2B2B;
-        } else if ((((trainData.departureTime()-Date.now())-20000)/1000) <= 40 && (((trainData.departureTime()-Date.now())-20000)/1000) > 10) {
+        } else if ((((trainData.departureTime()-Date.now()))/1000) <= 40 && (((trainData.departureTime()-Date.now()))/1000) > 10) {
             if (trainData.platform().getDwellTime()/1000 > 60) {
                 statusText = "Final Call";
                 pillColor = 0xFF3131;
@@ -139,24 +139,24 @@ function renderArrivals(ctx, pids, trainData, y) {
                 pillEmpty = false;
                 statusTextColor = 0xFFFFFF;
             }
-        } else if ((((trainData.departureTime()-Date.now())-20000)/1000) <= 10) {
+        } else if ((((trainData.departureTime()-Date.now()))/1000) <= 10) {
             statusText = "Confirmed";
             pillColor = 0x2567FB;
             pillEmpty = false;
             statusTextColor = 0xFFFFFF;
         }
     } else {
-        if ((((trainData.departureTime()-Date.now())-20000)/1000) > 40 && (((trainData.arrivalTime()-Date.now())-20000)/1000)/60 < 0.5) {
+        if ((((trainData.departureTime()-Date.now()))/1000) > 40 && (((trainData.arrivalTime()-Date.now()))/1000)/60 < 0.5) {
             statusText = "Alighting";
             pillColor = 0xE58A00;
             pillEmpty = false;
             statusTextColor = 0x2B2B2B;
-        } else if ((((trainData.departureTime()-Date.now())-20000)/1000) <= 40 && (((trainData.departureTime()-Date.now())-20000)/1000) > 10) {
+        } else if ((((trainData.departureTime()-Date.now()))/1000) <= 40 && (((trainData.departureTime()-Date.now()))/1000) > 10) {
             statusText = "Last Check";
             pillColor = 0xFF3131;
             pillEmpty = false;
             statusTextColor = 0xFFFFFF;
-        } else if ((((trainData.departureTime()-Date.now())-20000)/1000) <= 10) {
+        } else if ((((trainData.departureTime()-Date.now()))/1000) <= 10) {
             statusText = "Confirmed";
             pillColor = 0x2567FB;
             pillEmpty = false;

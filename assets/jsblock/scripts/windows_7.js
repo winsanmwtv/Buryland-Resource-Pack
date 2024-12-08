@@ -27,7 +27,7 @@ function renderCurrentTrain(ctx, pids) {
     let dest = firstArrival.destination();
     let delay = firstArrival.deviation()/1000;
     let delayText;
-    let depart = ((firstArrival.arrivalTime()-20000)-Date.now())/1000;
+    let depart = ((firstArrival.arrivalTime())-Date.now())/1000;
     let departed = firstArrival.realtime();
 
     if (term) dest = "Terminates here";
@@ -67,7 +67,7 @@ function renderCurrentTrain(ctx, pids) {
 
     if (depart < -9) {
         Text.create("Current Train Departure")
-        .text(PIDSAddon.getETAText(firstArrival.departureTime()-20000, "Departuring"))
+        .text(PIDSAddon.getETAText(firstArrival.departureTime(), "Departuring"))
         .pos(pids.width-4, 23)
         .scale(0.5)
         .color(0xFFFFFF)
@@ -83,7 +83,7 @@ function renderCurrentTrain(ctx, pids) {
         .draw(ctx);
     } else {
         Text.create("Arrive in")
-        .text("Arrive in "+PIDSAddon.getETAText(firstArrival.arrivalTime()-20000, ""))
+        .text("Arrive in "+PIDSAddon.getETAText(firstArrival.arrivalTime(), ""))
         .pos(68, 29)
         .scale(0.3)
         .color(0xFFFFFF)

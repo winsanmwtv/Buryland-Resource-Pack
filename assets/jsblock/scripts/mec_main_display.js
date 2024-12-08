@@ -50,7 +50,7 @@ function render(ctx, state, pids) { // do logic here
             trainStatus = ClockFormat.formatSecond(trainData[0].deviation()/1000)+" delayed";
         }
 
-        if (((trainData[0].arrivalTime()-Date.now())-20000)/1000 <= 5) { // just render full screen display
+        if (((trainData[0].arrivalTime()-Date.now()))/1000 <= 5) { // just render full screen display
             renderTrainScreen(ctx, pids, trainData[0]);
         }
 
@@ -119,7 +119,7 @@ function renderTrainScreen(ctx, pids, trainData) {
     let pillText = "";
     let pillTextColor = 0xFFFFFF;
 
-    if (((trainData.departureTime()-Date.now())-20000)/1000 > trainData.platform().getDwellTime()/1000) {
+    if (((trainData.departureTime()-Date.now()))/1000 > trainData.platform().getDwellTime()/1000) {
         if (trainData.deviation()/1000 < 15) { // not delayed
             pillColor = 0x0B794E;
             pillText = "On time";
@@ -137,7 +137,7 @@ function renderTrainScreen(ctx, pids, trainData) {
             pillText = ClockFormat.formatSecond(trainData.deviation()/1000)+" delay";
             pillTextColor = 0xFFFFFF;
         }
-    } else if (((trainData.departureTime()-Date.now())-20000)/1000 <= trainData.platform().getDwellTime()/1000 && ((trainData.departureTime()-Date.now())-20000)/1000 >= 15) {
+    } else if (((trainData.departureTime()-Date.now()))/1000 <= trainData.platform().getDwellTime()/1000 && ((trainData.departureTime()-Date.now()))/1000 >= 15) {
         if (!trainData.terminating()) { // ready to board status
             pillColor = 0xFFB000;
             pillText = "Boarding";
@@ -227,15 +227,15 @@ function renderArrival(ctx, pids, y, i, trainData, trainStatus) {
     .centerAlign()
     .draw(ctx);
 
-    if (((trainData[i].arrivalTime()-Date.now())-20000)/1000 > 15 && (((trainData[i].arrivalTime()-Date.now())-20000)/1000)/60 <= 10) { // countdown at 10 minutes left and more than 15 seconds
+    if (((trainData[i].arrivalTime()-Date.now()))/1000 > 15 && (((trainData[i].arrivalTime()-Date.now()))/1000)/60 <= 10) { // countdown at 10 minutes left and more than 15 seconds
         Text.create("ETA") // do countdown
-        .text(ClockFormat.formatSecond(((trainData[i].arrivalTime()-Date.now())-20000)/1000))
+        .text(ClockFormat.formatSecond(((trainData[i].arrivalTime()-Date.now()))/1000))
         .pos(pids.width-22.5, y+9)
         .scale(0.5)
         .color(0xFFFFFF)
         .centerAlign()
         .draw(ctx);
-    } else if (((trainData[i].arrivalTime()-Date.now())-20000)/1000 > 5 && ((trainData[i].arrivalTime()-Date.now())-20000)/1000 <= 15) { // 15 seconds left
+    } else if (((trainData[i].arrivalTime()-Date.now()))/1000 > 5 && ((trainData[i].arrivalTime()-Date.now()))/1000 <= 15) { // 15 seconds left
         Text.create("ETA") // do countdown
         .text("Arriving") // just show arriving
         .pos(pids.width-22.5, y+9)

@@ -48,13 +48,13 @@ function render(ctx, state, pids) { // do logic here
 
         let statusText = "";
         let color = 0xFFFFFF;
-        if ((((trainData[i].arrivalTime()-Date.now())-20000)/1000)/60 >= 1 && (((trainData[i].arrivalTime()-Date.now())-20000)/1000)/60 < 4) {
-            statusText = ClockFormat.formatSecond(((trainData[i].arrivalTime()-Date.now())-20000)/1000);
+        if ((((trainData[i].arrivalTime()-Date.now()))/1000)/60 >= 1 && (((trainData[i].arrivalTime()-Date.now()))/1000)/60 < 4) {
+            statusText = ClockFormat.formatSecond(((trainData[i].arrivalTime()-Date.now()))/1000);
             color = 0xFFBF00;
-        } else if ((((trainData[i].arrivalTime()-Date.now())-20000)/1000) > 30 && (((trainData[i].arrivalTime()-Date.now())-20000)/1000)/60 < 1) {
+        } else if ((((trainData[i].arrivalTime()-Date.now()))/1000) > 30 && (((trainData[i].arrivalTime()-Date.now()))/1000)/60 < 1) {
             statusText = "soon";
             color = 0xFFBF00;
-        } else if ((((trainData[i].arrivalTime()-Date.now())-20000)/1000) > 1 && (((trainData[i].arrivalTime()-Date.now())-20000)/1000) <= 30) {
+        } else if ((((trainData[i].arrivalTime()-Date.now()))/1000) > 1 && (((trainData[i].arrivalTime()-Date.now()))/1000) <= 30) {
             // statusText = "soon";
             // color = 0xFFBF00;
             if ((trainData[i].deviation()/1000)/60 >= 3) {
@@ -66,7 +66,7 @@ function render(ctx, state, pids) { // do logic here
         } else if ((trainData[i].deviation()/1000)/60 >= 3) {
             statusText = ClockFormat.formatSecond(trainData[i].deviation()/1000)+" delay";
             color = 0xFF3131;
-        } else if ((((trainData[i].arrivalTime()-Date.now())-20000)/1000) <= 1) {
+        } else if ((((trainData[i].arrivalTime()-Date.now()))/1000) <= 1) {
             statusText = "Departing";
             color = 0xFFBF00;
         }

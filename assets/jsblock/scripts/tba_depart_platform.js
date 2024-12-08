@@ -47,7 +47,7 @@ function render(ctx, state, pids) { // do logic here
         .leftAlign()
         .draw(ctx);
 
-        if ((((trainData.arrivalTime()-Date.now())-20000)/1000)/60 > 60 || trainData.terminating()) { // > 1 hr no train atm
+        if ((((trainData.arrivalTime()-Date.now()))/1000)/60 > 60 || trainData.terminating()) { // > 1 hr no train atm
             Texture.create("Background") // background image
             .texture("jsblock:textures/konno/no_train.png")
             .size(pids.width, pids.height)
@@ -113,22 +113,22 @@ function render(ctx, state, pids) { // do logic here
             statusTextColor = 0xFF5757;
         }
 
-        if ((((trainData.arrivalTime()-Date.now())-20000)/1000)/60 >= 1 && (((trainData.arrivalTime()-Date.now())-20000)/1000)/60 < 4) {
-            statusText = "in "+ClockFormat.formatSecond(((trainData.arrivalTime()-Date.now())-20000)/1000);
+        if ((((trainData.arrivalTime()-Date.now()))/1000)/60 >= 1 && (((trainData.arrivalTime()-Date.now()))/1000)/60 < 4) {
+            statusText = "in "+ClockFormat.formatSecond(((trainData.arrivalTime()-Date.now()))/1000);
             pillColor = 0xFFFFFF;
             pillEmpty = true;
             statusTextColor = 0x2567FB;
-        } else if ((((trainData.arrivalTime()-Date.now())-20000)/1000) >= 10 && (((trainData.arrivalTime()-Date.now())-20000)/1000)/60 < 1) {
+        } else if ((((trainData.arrivalTime()-Date.now()))/1000) >= 10 && (((trainData.arrivalTime()-Date.now()))/1000)/60 < 1) {
             statusText = "Arriving";
             pillColor = 0xE58A00;
             pillEmpty = false;
             statusTextColor = 0xFFFFFF;
-        } else if ((((trainData.departureTime()-Date.now())-20000)/1000) >= 40 && (((trainData.arrivalTime()-Date.now())-20000)/1000) < 10) {
+        } else if ((((trainData.departureTime()-Date.now()))/1000) >= 40 && (((trainData.arrivalTime()-Date.now()))/1000) < 10) {
             statusText = "Boarding";
             pillColor = 0x0B794E;
             pillEmpty = false;
             statusTextColor = 0xFFFFFF;
-        } else if ((((trainData.departureTime()-Date.now())-20000)/1000) >= 15 && (((trainData.departureTime()-Date.now())-20000)/1000) < 40) {
+        } else if ((((trainData.departureTime()-Date.now()))/1000) >= 15 && (((trainData.departureTime()-Date.now()))/1000) < 40) {
             if (trainData.platform().getDwellTime()/1000 > 60) {
                 statusText = "Final Call";
                 pillColor = 0xFF3131;
@@ -140,7 +140,7 @@ function render(ctx, state, pids) { // do logic here
                 pillEmpty = false;
                 statusTextColor = 0xFFFFFF;
             }
-        } else if ((((trainData.arrivalTime()-Date.now())-20000)/1000) < 15) {
+        } else if ((((trainData.arrivalTime()-Date.now()))/1000) < 15) {
             statusText = "Confirmed";
             pillColor = 0x2567FB;
             pillEmpty = false;
@@ -230,12 +230,12 @@ function renderArrivals(ctx, pids, trainData, y) {
     }
 
     if (!trainData.terminating()) {
-        if ((((trainData.departureTime()-Date.now())-20000)/1000) > 40 && (((trainData.arrivalTime()-Date.now())-20000)/1000)/60 < 1.5) {
+        if ((((trainData.departureTime()-Date.now()))/1000) > 40 && (((trainData.arrivalTime()-Date.now()))/1000)/60 < 1.5) {
             statusText = "Boarding";
             pillColor = 0xE58A00;
             pillEmpty = false;
             statusTextColor = 0x2B2B2B;
-        } else if ((((trainData.departureTime()-Date.now())-20000)/1000) <= 40 && (((trainData.departureTime()-Date.now())-20000)/1000) > 10) {
+        } else if ((((trainData.departureTime()-Date.now()))/1000) <= 40 && (((trainData.departureTime()-Date.now()))/1000) > 10) {
             if (trainData.platform().getDwellTime()/1000 > 60) {
                 statusText = "Final Call";
                 pillColor = 0xFF3131;
@@ -247,24 +247,24 @@ function renderArrivals(ctx, pids, trainData, y) {
                 pillEmpty = false;
                 statusTextColor = 0xFFFFFF;
             }
-        } else if ((((trainData.departureTime()-Date.now())-20000)/1000) <= 10) {
+        } else if ((((trainData.departureTime()-Date.now()))/1000) <= 10) {
             statusText = "Confirmed";
             pillColor = 0x2567FB;
             pillEmpty = false;
             statusTextColor = 0xFFFFFF;
         }
     } else {
-        if ((((trainData.departureTime()-Date.now())-20000)/1000) > 40 && (((trainData.arrivalTime()-Date.now())-20000)/1000)/60 < 0.5) {
+        if ((((trainData.departureTime()-Date.now()))/1000) > 40 && (((trainData.arrivalTime()-Date.now()))/1000)/60 < 0.5) {
             statusText = "Alighting";
             pillColor = 0xE58A00;
             pillEmpty = false;
             statusTextColor = 0x2B2B2B;
-        } else if ((((trainData.departureTime()-Date.now())-20000)/1000) <= 40 && (((trainData.departureTime()-Date.now())-20000)/1000) > 10) {
+        } else if ((((trainData.departureTime()-Date.now()))/1000) <= 40 && (((trainData.departureTime()-Date.now()))/1000) > 10) {
             statusText = "Last Check";
             pillColor = 0xFF3131;
             pillEmpty = false;
             statusTextColor = 0xFFFFFF;
-        } else if ((((trainData.departureTime()-Date.now())-20000)/1000) <= 10) {
+        } else if ((((trainData.departureTime()-Date.now()))/1000) <= 10) {
             statusText = "Confirmed";
             pillColor = 0x2567FB;
             pillEmpty = false;
