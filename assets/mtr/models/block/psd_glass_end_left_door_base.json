@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"black": "mtr:block/black",
+		"particle": "mtr:item/psd_glass_end_1"
+	},
+	"elements": [
+		{
+			"name": "Glass section",
+			"from": [4, 0, 8],
+			"to": [6, 16, 10],
+			"faces": {
+				"east": {"uv": [0, 0, 2, 16], "texture": "#front"},
+				"west": {"uv": [14, 0, 16, 16], "texture": "#back"},
+				"up": {"uv": [4, 8, 6, 10], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [4, 6, 6, 8], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Red section",
+			"from": [4, 0, 10],
+			"to": [6, 16, 16],
+			"faces": {
+				"north": {"uv": [1, 0, 3, 16], "texture": "#red"},
+				"east": {"uv": [1, 0, 3, 16], "texture": "#red"},
+				"south": {"uv": [1, 0, 3, 16], "texture": "#red", "cullface": "south"},
+				"west": {"uv": [10, 0, 16, 16], "texture": "#black"},
+				"up": {"uv": [4, 10, 6, 16], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [4, 0, 6, 6], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Small bottom section",
+			"from": [6, 0, 10],
+			"to": [6, 2, 16],
+			"faces": {
+				"east": {"uv": [10, 14, 16, 16], "texture": "#front"}
+			}
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+    "bumper": {
+        "name": "§cBumper",
+        "model": "mtrsteamloco:eyecandies/bump/bump.obj",
+        "translation": [ 0, 0, 0 ],
+        "rotation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ],
+        "mirror": [ false, false, false ]
+    }
+}

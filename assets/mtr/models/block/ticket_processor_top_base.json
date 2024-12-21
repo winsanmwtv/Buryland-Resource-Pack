@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"cover": "block/gray_concrete",
+		"overlay": "mtr:block/ticket_processor",
+		"particle": "mtr:block/metal"
+	}
+}

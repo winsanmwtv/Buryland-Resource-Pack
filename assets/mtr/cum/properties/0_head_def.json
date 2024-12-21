@@ -1,0 +1,94 @@
+{
+	"positionDefinitions": [
+		{
+			"name": "ext",
+			"positions": [
+				{
+					"z": 0
+				}
+			]
+		},
+		{
+			"name": "door",
+			"positions": [
+				{
+					"z": 40
+				},
+				{
+					"z": 121
+				},
+				{
+					"z": -40
+				},
+				{
+					"z": -120
+				}
+			]
+		},
+		{
+			"name": "doorFlipped",
+			"positionsFlipped": [
+				{
+					"z": 40
+				},
+				{
+					"z": 121
+				},
+				{
+					"z": -40
+				},
+				{
+					"z": -120
+				}
+			]
+		},
+		{
+			"name": "floor_main",
+			"positions": [
+				{
+					"z": 20
+				},
+				{
+					"z": 61
+				},
+				{
+					"z": 102
+				},
+				{
+					"z": 143
+				},
+				{
+					"z": -21
+				},
+				{
+					"z": -62
+				},
+				{
+					"z": -103
+				}
+			]
+		},
+		{
+			"name": "floor_doors",
+			"positions": [
+				{
+					"z": 40
+				},
+				{
+					"z": 121
+				},
+				{
+					"z": -40
+				}
+			]
+		},
+		{
+			"name": "floor",
+			"positionsFlipped": [
+				{
+					"z": 0
+				}
+			]
+		}
+	]
+}

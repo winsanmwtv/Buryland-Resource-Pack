@@ -1,0 +1,42 @@
+{
+	"tram_track1": {
+		"name":"§9Tram tracks without road",
+		"model": "mtrsteamloco:rails/tram_track1.obj",
+		"repeatInterval": 0.5
+	},
+	"sunken_road_real": {
+		"name":"§9Realistic sunken tracks",
+		"model":"mtrsteamloco:rails/sunken_road_real.obj",
+		"repeatInterval": 0.6
+	},
+	"monorail_regular": {
+		"name": "regular_monorail",
+        "model": "mtrsteamloco:rails/rails_regular.obj",
+		"repeatInterval": 2,
+		"flipV": true
+    },
+	"sb_road": {
+		"name": "§3S-bahn Beton",
+        "model": "mtrsteamloco:rails/br_sb.obj",
+		"repeatInterval": 1.58,
+		"flipV": true
+    },
+	"concrete_road": {
+		"name": "§3Beton Schienen",
+        "model": "mtrsteamloco:rails/railconcrete.obj",
+		"repeatInterval": 0.5,
+		"flipV": true
+    },
+	"wd_sbahn": {
+		"name": "§3S-bahn Holz",
+        "model": "mtrsteamloco:rails/wd_sb.obj",
+		"repeatInterval": 1.58,
+		"flipV": true
+    },
+	"wood_rail": {
+		"name": "§3holz Schienen",
+        "model": "mtrsteamloco:rails/railwood.obj",
+		"repeatInterval": 0.5,
+		"flipV": true
+    }
+}

@@ -10,6 +10,88 @@
 			"model": "mtr:z0a/z0alhd_low.bbmodel",
 			"model_properties": "mtr:z0a/z0alhd.json",
 			"name": "Yutong Bus (LHD)"
+		},
+		"strainmec": {
+			"name": "s_train_small MEC",
+			"color": "3F78C9",
+			"base_train_type": "s_train_small",
+			"texture_id": "mtr:textures/meccopy.png",
+			"bve_sound_base_id": "4eba_4040"
+
+		},
+ 
+		"incheonconnect": {
+			"name": "incheonconnect_c1141a_mini",
+			"color": "66CCFF",
+			"base_train_type": "c1141a_mini",
+			"texture_id": "mtr:textures/ic.png"
+ 
+		},
+
+		"atrainal": {
+			"name": "a_train_airlink",
+			"color": "3F78C9",
+			"base_train_type": "a_train_ael",
+			"texture_id": "mtr:textures/alcopy.png"
+
+		},
+	
+		"ktrainal": {
+			"name": "K_train_airlink",
+			"color": "3F78C9",
+			"base_train_type": "k_train_ael_small",
+			"texture_id": "mtr:textures/localcopy.png",
+			"bve_sound_base_id": "4eba_4040"
+		},
+ 
+		"mec2": {
+			"name": "c_train_small MEC",
+			"color": "3F78C9",
+			"base_train_type": "c_train_small",
+			"texture_id": "mtr:textures/mecy.png"
+
+		},
+ 
+		"mec3": {
+			"name": "c_train_small GRN",
+			"color": "3F78C9",
+			"base_train_type": "c_train_small",
+			"texture_id": "mtr:textures/mecg.png"
+
+		},
+ 
+		"mec4": {
+			"name": "s_train_small GRN",
+			"color": "3F78C9",
+			"base_train_type": "s_train_small",
+			"texture_id": "mtr:textures/mecsg.png"
+
+		},
+ 
+		"ex377": {
+			"name": "377_express",
+			"color": "3F78C9",
+			"base_train_type": "class_377_southern",
+			"texture_id": "mtr:textures/ex377.png"
+
+		},
+ 
+		"ex800d": {
+			"name": "802_express_dies",
+			"color": "3F78C9",
+			"base_train_type": "class_802_gwr_mini",
+			"texture_id": "mtr:textures/ex800.png"
+
+		},
+ 
+		"ex800e": {
+			"name": "802_express_elec",
+			"color": "3F78C9",
+			"base_train_type": "class_802_tpe_mini",
+			"texture_id": "mtr:textures/ex800.png"
+
+		
+ 
 		}
 	}
 }

@@ -1,20 +1,3713 @@
 {
-	"custom_trains": {
-		"strainmec": {
-			"name": "s_train_small MEC",
-			"color": "3F78C9",
-			"base_train_type": "s_train_small",
-			"texture_id": "mtr:textures/meccopy.png",
-			"bve_sound_base_id": "4eba_4040"
-
-		},
- 
-		"incheonconnect": {
-			"name": "incheonconnect_c1141a_mini",
-			"color": "66CCFF",
-			"base_train_type": "c1141a_mini",
-			"texture_id": "mtr:textures/ic.png"
- 
+    "vehicles": [
+        {
+            "id": "mtr_custom_train_class3501lnwrpid_trailer",
+            "name": "Class 350/1 (LNWR, with PID) (Trailer, with pantograph)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_4d14db99.json",
+                    "positionDefinitionsResource": "mtr:definition_13b6ab4.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_49e1dac2.json",
+                    "positionDefinitionsResource": "mtr:definition_e004fd78.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_43863eed.json",
+                    "positionDefinitionsResource": "mtr:definition_40f858a2.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501lnwrpid_trailer_2",
+            "name": "Class 350/1 (LNWR, with PID) (Trailer, without pantograph))",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_b87fcbd1.json",
+                    "positionDefinitionsResource": "mtr:definition_3b66e694.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_d8b6f75.json",
+                    "positionDefinitionsResource": "mtr:definition_b7f4b38f.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_1b1cdcb3.json",
+                    "positionDefinitionsResource": "mtr:definition_deeb6a2c.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501lnwrpid_cab_1",
+            "name": "Class 350/1 (LNWR, with PID) Cab (Forwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_c042464.json",
+                    "positionDefinitionsResource": "mtr:definition_fdb9cfcb.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_594b37fc.json",
+                    "positionDefinitionsResource": "mtr:definition_f0985d44.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_e5317017.json",
+                    "positionDefinitionsResource": "mtr:definition_b0ab9a2.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501lnwrpid_cab_2",
+            "name": "Class 350/1 (LNWR, with PID) Cab (Backwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_5a56d236.json",
+                    "positionDefinitionsResource": "mtr:definition_f0bd8210.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_f8178899.json",
+                    "positionDefinitionsResource": "mtr:definition_e6f67270.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_3fe10679.json",
+                    "positionDefinitionsResource": "mtr:definition_6d755a13.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501lnwr_trailer",
+            "name": "Class 350/1 (LNWR) (Trailer, with pantograph)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_e84569ba.json",
+                    "positionDefinitionsResource": "mtr:definition_bffa8189.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_aa1bdf25.json",
+                    "positionDefinitionsResource": "mtr:definition_e18ba3bd.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_591ce372.json",
+                    "positionDefinitionsResource": "mtr:definition_63e984f0.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501lnwr_trailer_2",
+            "name": "Class 350/1 (LNWR) (Trailer, without pantograph))",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_13ae91e9.json",
+                    "positionDefinitionsResource": "mtr:definition_16e6c1c0.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_41c88190.json",
+                    "positionDefinitionsResource": "mtr:definition_ed8c582b.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_1366e48a.json",
+                    "positionDefinitionsResource": "mtr:definition_ec19528.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501lnwr_cab_1",
+            "name": "Class 350/1 (LNWR) Cab (Forwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_6721b34b.json",
+                    "positionDefinitionsResource": "mtr:definition_fe270574.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_c2637bf8.json",
+                    "positionDefinitionsResource": "mtr:definition_207df1e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_66321013.json",
+                    "positionDefinitionsResource": "mtr:definition_bfdc3c70.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501lnwr_cab_2",
+            "name": "Class 350/1 (LNWR) Cab (Backwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_1516c020.json",
+                    "positionDefinitionsResource": "mtr:definition_971809be.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_cf6e0a69.json",
+                    "positionDefinitionsResource": "mtr:definition_a05020e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_9a1ee41d.json",
+                    "positionDefinitionsResource": "mtr:definition_20926049.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+		        {
+            "id": "mtr_custom_train_class3501lm_trailer",
+            "name": "Class 350/1 (London Midland) (Trailer, with pantograph)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_e84569ba.json",
+                    "positionDefinitionsResource": "mtr:definition_bffa8189.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_aa1bdf25.json",
+                    "positionDefinitionsResource": "mtr:definition_e18ba3bd.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_591ce372.json",
+                    "positionDefinitionsResource": "mtr:definition_63e984f0.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501lm_trailer_2",
+            "name": "Class 350/1 (London Midland) (Trailer, without pantograph))",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_13ae91e9.json",
+                    "positionDefinitionsResource": "mtr:definition_16e6c1c0.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_41c88190.json",
+                    "positionDefinitionsResource": "mtr:definition_ed8c582b.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_1366e48a.json",
+                    "positionDefinitionsResource": "mtr:definition_ec19528.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501lm_cab_1",
+            "name": "Class 350/1 (London Midland) Cab (Forwards, yellow gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_6721b34b.json",
+                    "positionDefinitionsResource": "mtr:definition_fe270574.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_c2637bf8.json",
+                    "positionDefinitionsResource": "mtr:definition_207df1e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_66321013.json",
+                    "positionDefinitionsResource": "mtr:definition_bfdc3c70.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501lm_cab_2",
+            "name": "Class 350/1 (London Midland) Cab (Backwards, yellow gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_1516c020.json",
+                    "positionDefinitionsResource": "mtr:definition_971809be.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_cf6e0a69.json",
+                    "positionDefinitionsResource": "mtr:definition_a05020e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_9a1ee41d.json",
+                    "positionDefinitionsResource": "mtr:definition_20926049.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+		        {
+            "id": "mtr_custom_train_class3501lm_cab_3",
+            "name": "Class 350/1 (London Midland) Cab (Forwards, yellow / black gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm2.png",
+                    "modelPropertiesResource": "mtr:properties_6721b34b.json",
+                    "positionDefinitionsResource": "mtr:definition_fe270574.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_c2637bf8.json",
+                    "positionDefinitionsResource": "mtr:definition_207df1e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_66321013.json",
+                    "positionDefinitionsResource": "mtr:definition_bfdc3c70.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501lm_cab_4",
+            "name": "Class 350/1 (London Midland) Cab (Backwards, yellow / black gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm2.png",
+                    "modelPropertiesResource": "mtr:properties_1516c020.json",
+                    "positionDefinitionsResource": "mtr:definition_971809be.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_cf6e0a69.json",
+                    "positionDefinitionsResource": "mtr:definition_a05020e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lm.png",
+                    "modelPropertiesResource": "mtr:properties_9a1ee41d.json",
+                    "positionDefinitionsResource": "mtr:definition_20926049.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+		        {
+            "id": "mtr_custom_train_class3501ct_trailer",
+            "name": "Class 350/1 (Central Trains) (Trailer, with pantograph)",
+            "color": "284785",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501ct.png",
+                    "modelPropertiesResource": "mtr:properties_e84569ba.json",
+                    "positionDefinitionsResource": "mtr:definition_bffa8189.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501ct.png",
+                    "modelPropertiesResource": "mtr:properties_aa1bdf25.json",
+                    "positionDefinitionsResource": "mtr:definition_e18ba3bd.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501ct.png",
+                    "modelPropertiesResource": "mtr:properties_591ce372.json",
+                    "positionDefinitionsResource": "mtr:definition_63e984f0.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501ct_trailer_2",
+            "name": "Class 350/1 (Central Trains) (Trailer, without pantograph))",
+            "color": "284785",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501ct.png",
+                    "modelPropertiesResource": "mtr:properties_13ae91e9.json",
+                    "positionDefinitionsResource": "mtr:definition_16e6c1c0.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501ct.png",
+                    "modelPropertiesResource": "mtr:properties_41c88190.json",
+                    "positionDefinitionsResource": "mtr:definition_ed8c582b.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501ct.png",
+                    "modelPropertiesResource": "mtr:properties_1366e48a.json",
+                    "positionDefinitionsResource": "mtr:definition_ec19528.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501ct_cab_1",
+            "name": "Class 350/1 (Central Trains) Cab (Forwards, yellow gangway doors)",
+            "color": "284785",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501ct.png",
+                    "modelPropertiesResource": "mtr:properties_6721b34b.json",
+                    "positionDefinitionsResource": "mtr:definition_fe270574.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501ct.png",
+                    "modelPropertiesResource": "mtr:properties_c2637bf8.json",
+                    "positionDefinitionsResource": "mtr:definition_207df1e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501ct.png",
+                    "modelPropertiesResource": "mtr:properties_66321013.json",
+                    "positionDefinitionsResource": "mtr:definition_bfdc3c70.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3501ct_cab_2",
+            "name": "Class 350/1 (Central Trains) Cab (Backwards, yellow gangway doors)",
+            "color": "284785",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501ct.png",
+                    "modelPropertiesResource": "mtr:properties_1516c020.json",
+                    "positionDefinitionsResource": "mtr:definition_971809be.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501ct.png",
+                    "modelPropertiesResource": "mtr:properties_cf6e0a69.json",
+                    "positionDefinitionsResource": "mtr:definition_a05020e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501ct.png",
+                    "modelPropertiesResource": "mtr:properties_9a1ee41d.json",
+                    "positionDefinitionsResource": "mtr:definition_20926049.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+		        
+        {
+            "id": "mtr_custom_train_class3502lnwr_trailer",
+            "name": "Class 350/2 (LNWR) (Trailer, with pantograph)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_cf832386.json",
+                    "positionDefinitionsResource": "mtr:definition_16980edb.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_280710d.json",
+                    "positionDefinitionsResource": "mtr:definition_706e7b53.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_75448103.json",
+                    "positionDefinitionsResource": "mtr:definition_180a9dd.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_d46a6d7.json",
+                    "positionDefinitionsResource": "mtr:definition_321e63a4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lnwr_trailer_2",
+            "name": "Class 350/2 (LNWR) (Trailer, without pantograph))",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_926373aa.json",
+                    "positionDefinitionsResource": "mtr:definition_dc3a9622.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_de81763f.json",
+                    "positionDefinitionsResource": "mtr:definition_539a4960.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_dd2a8c1e.json",
+                    "positionDefinitionsResource": "mtr:definition_b81137e0.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_fab6a232.json",
+                    "positionDefinitionsResource": "mtr:definition_9e7b4456.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lnwr_cab_1",
+            "name": "Class 350/2 (LNWR) Cab (Forwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_3a2879b7.json",
+                    "positionDefinitionsResource": "mtr:definition_8400e310.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_147f151d.json",
+                    "positionDefinitionsResource": "mtr:definition_e7e9649b.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_f5ece62e.json",
+                    "positionDefinitionsResource": "mtr:definition_5b626443.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_98d640e8.json",
+                    "positionDefinitionsResource": "mtr:definition_5532f072.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lnwr_cab_2",
+            "name": "Class 350/2 (LNWR) Cab (Backwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_b279e5a1.json",
+                    "positionDefinitionsResource": "mtr:definition_c9251ae7.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_f1993906.json",
+                    "positionDefinitionsResource": "mtr:definition_d1baaa36.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_54b7827.json",
+                    "positionDefinitionsResource": "mtr:definition_23186c7.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_e5357177.json",
+                    "positionDefinitionsResource": "mtr:definition_7420d72c.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lm_trailer",
+            "name": "Class 350/2 (London Midland) (Trailer, with pantograph)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_2e9b8023.json",
+                    "positionDefinitionsResource": "mtr:definition_7928eaba.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_315a1b98.json",
+                    "positionDefinitionsResource": "mtr:definition_4c31e95d.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_5b46df0f.json",
+                    "positionDefinitionsResource": "mtr:definition_51d236db.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_1084dbb2.json",
+                    "positionDefinitionsResource": "mtr:definition_98380cc7.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lm_trailer_2",
+            "name": "Class 350/2 (London Midland) (Trailer, without pantograph))",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_d1cf0d08.json",
+                    "positionDefinitionsResource": "mtr:definition_1c682b39.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_e43fc72e.json",
+                    "positionDefinitionsResource": "mtr:definition_ddac00c8.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_738a7f89.json",
+                    "positionDefinitionsResource": "mtr:definition_11d0aab6.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_3a1821e6.json",
+                    "positionDefinitionsResource": "mtr:definition_19f4750c.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lm_cab_1",
+            "name": "Class 350/2 (London Midland) Cab (Forwards, yellow gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_fd7c8c62.json",
+                    "positionDefinitionsResource": "mtr:definition_b4dc44be.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_2d5f2f91.json",
+                    "positionDefinitionsResource": "mtr:definition_bff1567b.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_132fe2bf.json",
+                    "positionDefinitionsResource": "mtr:definition_389c7773.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_5959ba84.json",
+                    "positionDefinitionsResource": "mtr:definition_5e9db9ac.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lm_cab_2",
+            "name": "Class 350/2 (London Midland) Cab (Backwards, yellow gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_962fc17f.json",
+                    "positionDefinitionsResource": "mtr:definition_1bac178c.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_a38dfc6b.json",
+                    "positionDefinitionsResource": "mtr:definition_764f432d.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_536ce3b2.json",
+                    "positionDefinitionsResource": "mtr:definition_fe5eeaaa.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_b6526706.json",
+                    "positionDefinitionsResource": "mtr:definition_1a4afeb0.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lm_cab_3",
+            "name": "Class 350/2 (London Midland) Cab (Forwards, yellow / black gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_e03af201.json",
+                    "positionDefinitionsResource": "mtr:definition_b2fe2ae8.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_7b012927.json",
+                    "positionDefinitionsResource": "mtr:definition_1462203a.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_b6bdc693.json",
+                    "positionDefinitionsResource": "mtr:definition_b5b6c6bf.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm2.png",
+                    "modelPropertiesResource": "mtr:properties_11fde009.json",
+                    "positionDefinitionsResource": "mtr:definition_937ef99d.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lm_cab_4",
+            "name": "Class 350/2 (London Midland) Cab (Backwards, yellow / black gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm2.png",
+                    "modelPropertiesResource": "mtr:properties_aea801c5.json",
+                    "positionDefinitionsResource": "mtr:definition_da19efca.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_fb508f0f.json",
+                    "positionDefinitionsResource": "mtr:definition_45953a65.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_447c442a.json",
+                    "positionDefinitionsResource": "mtr:definition_80fd4ce9.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lm.png",
+                    "modelPropertiesResource": "mtr:properties_eac3df54.json",
+                    "positionDefinitionsResource": "mtr:definition_181575eb.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lnwrlmngb_trailer",
+            "name": "Class 350/2 (LNWR, with London Midland livery) (Trailer, with pantograph)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_31d708a5.json",
+                    "positionDefinitionsResource": "mtr:definition_7ca23bd5.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_f763257f.json",
+                    "positionDefinitionsResource": "mtr:definition_57357306.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_62b46040.json",
+                    "positionDefinitionsResource": "mtr:definition_df4d0906.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_7d92a288.json",
+                    "positionDefinitionsResource": "mtr:definition_ebfb48fa.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lnwrlmngb_trailer_2",
+            "name": "Class 350/2 (LNWR, with London Midland livery) (Trailer, without pantograph))",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_c27eafbb.json",
+                    "positionDefinitionsResource": "mtr:definition_d2d1c8d7.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_a2046b7f.json",
+                    "positionDefinitionsResource": "mtr:definition_be748016.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_3595ae55.json",
+                    "positionDefinitionsResource": "mtr:definition_fa4aff65.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_f66f4e89.json",
+                    "positionDefinitionsResource": "mtr:definition_9598c084.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lnwrlmngb_cab_1",
+            "name": "Class 350/2 (LNWR, with London Midland livery) Cab (Forwards, yellow gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_1b61a15e.json",
+                    "positionDefinitionsResource": "mtr:definition_99ae369d.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_5af677bf.json",
+                    "positionDefinitionsResource": "mtr:definition_22634695.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_887ef4b.json",
+                    "positionDefinitionsResource": "mtr:definition_af7a9b98.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_433d27c1.json",
+                    "positionDefinitionsResource": "mtr:definition_b3186869.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lnwrlmngb_cab_2",
+            "name": "Class 350/2 (LNWR, with London Midland livery) Cab (Backwards, yellow gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_63f49862.json",
+                    "positionDefinitionsResource": "mtr:definition_bdc7ad0b.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_9d5d61ed.json",
+                    "positionDefinitionsResource": "mtr:definition_ef6a0fa6.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_fb3198fe.json",
+                    "positionDefinitionsResource": "mtr:definition_c385d8ee.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_8a5a2ab2.json",
+                    "positionDefinitionsResource": "mtr:definition_749e9533.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lnwrlmngb_cab_3",
+            "name": "Class 350/2 (LNWR, with London Midland livery) Cab (Forwards, yellow / black gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_b2ab5778.json",
+                    "positionDefinitionsResource": "mtr:definition_b016a7c7.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_d25b602a.json",
+                    "positionDefinitionsResource": "mtr:definition_67d506b7.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_ecc486b.json",
+                    "positionDefinitionsResource": "mtr:definition_385a4d1b.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb2.png",
+                    "modelPropertiesResource": "mtr:properties_a7dee5a2.json",
+                    "positionDefinitionsResource": "mtr:definition_2bbfa796.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3502lnwrlmngb_cab_4",
+            "name": "Class 350/2 (LNWR, with London Midland livery) Cab (Backwards, yellow / black gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb2.png",
+                    "modelPropertiesResource": "mtr:properties_6c704aac.json",
+                    "positionDefinitionsResource": "mtr:definition_942e6030.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_c434377.json",
+                    "positionDefinitionsResource": "mtr:definition_acdccdba.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_f26cdedd.json",
+                    "positionDefinitionsResource": "mtr:definition_f326e2a3.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3502lnwrlmngb.png",
+                    "modelPropertiesResource": "mtr:properties_68bf2f1b.json",
+                    "positionDefinitionsResource": "mtr:definition_e8ab1147.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+		{
+            "id": "mtr_custom_train_class3503lm_trailer",
+            "name": "Class 350/3 (London Midland) (Trailer, with pantograph)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_e84569ba.json",
+                    "positionDefinitionsResource": "mtr:definition_bffa8189.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_aa1bdf25.json",
+                    "positionDefinitionsResource": "mtr:definition_e18ba3bd.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_591ce372.json",
+                    "positionDefinitionsResource": "mtr:definition_63e984f0.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3503lm_trailer_2",
+            "name": "Class 350/3 (London Midland) (Trailer, without pantograph))",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_13ae91e9.json",
+                    "positionDefinitionsResource": "mtr:definition_16e6c1c0.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_41c88190.json",
+                    "positionDefinitionsResource": "mtr:definition_ed8c582b.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_1366e48a.json",
+                    "positionDefinitionsResource": "mtr:definition_ec19528.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3503lm_cab_1",
+            "name": "Class 350/3 (London Midland) Cab (Forwards, yellow gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_6721b34b.json",
+                    "positionDefinitionsResource": "mtr:definition_fe270574.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_c2637bf8.json",
+                    "positionDefinitionsResource": "mtr:definition_207df1e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_66321013.json",
+                    "positionDefinitionsResource": "mtr:definition_bfdc3c70.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3503lm_cab_2",
+            "name": "Class 350/3 (London Midland) Cab (Backwards, yellow gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_1516c020.json",
+                    "positionDefinitionsResource": "mtr:definition_971809be.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_cf6e0a69.json",
+                    "positionDefinitionsResource": "mtr:definition_a05020e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_9a1ee41d.json",
+                    "positionDefinitionsResource": "mtr:definition_20926049.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+		        {
+            "id": "mtr_custom_train_class3503lm_cab_3",
+            "name": "Class 350/3 (London Midland) Cab (Forwards, yellow / black gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm2.png",
+                    "modelPropertiesResource": "mtr:properties_6721b34b.json",
+                    "positionDefinitionsResource": "mtr:definition_fe270574.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_c2637bf8.json",
+                    "positionDefinitionsResource": "mtr:definition_207df1e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_66321013.json",
+                    "positionDefinitionsResource": "mtr:definition_bfdc3c70.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3503lm_cab_4",
+            "name": "Class 350/3 (London Midland) Cab (Backwards, yellow / black gangway doors)",
+            "color": "009632",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm2.png",
+                    "modelPropertiesResource": "mtr:properties_1516c020.json",
+                    "positionDefinitionsResource": "mtr:definition_971809be.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_cf6e0a69.json",
+                    "positionDefinitionsResource": "mtr:definition_a05020e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lm.png",
+                    "modelPropertiesResource": "mtr:properties_9a1ee41d.json",
+                    "positionDefinitionsResource": "mtr:definition_20926049.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+		{
+            "id": "mtr_custom_train_class3503lnwr_trailer",
+            "name": "Class 350/3 (LNWR) (Trailer, with pantograph)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_e84569ba.json",
+                    "positionDefinitionsResource": "mtr:definition_bffa8189.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_aa1bdf25.json",
+                    "positionDefinitionsResource": "mtr:definition_e18ba3bd.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_591ce372.json",
+                    "positionDefinitionsResource": "mtr:definition_63e984f0.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3503lnwr_trailer_2",
+            "name": "Class 350/3 (LNWR) (Trailer, without pantograph))",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_13ae91e9.json",
+                    "positionDefinitionsResource": "mtr:definition_16e6c1c0.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_41c88190.json",
+                    "positionDefinitionsResource": "mtr:definition_ed8c582b.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_1366e48a.json",
+                    "positionDefinitionsResource": "mtr:definition_ec19528.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3503lnwr_cab_1",
+            "name": "Class 350/3 (LNWR) Cab (Forwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_6721b34b.json",
+                    "positionDefinitionsResource": "mtr:definition_fe270574.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_c2637bf8.json",
+                    "positionDefinitionsResource": "mtr:definition_207df1e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_66321013.json",
+                    "positionDefinitionsResource": "mtr:definition_bfdc3c70.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3503lnwr_cab_2",
+            "name": "Class 350/3 (LNWR) Cab (Backwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_1516c020.json",
+                    "positionDefinitionsResource": "mtr:definition_971809be.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_cf6e0a69.json",
+                    "positionDefinitionsResource": "mtr:definition_a05020e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_9a1ee41d.json",
+                    "positionDefinitionsResource": "mtr:definition_20926049.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+		{
+            "id": "mtr_custom_train_class3503lnwrpid_trailer",
+            "name": "Class 350/3 (LNWR, with PID) (Trailer, with pantograph)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_4d14db99.json",
+                    "positionDefinitionsResource": "mtr:definition_13b6ab4.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_49e1dac2.json",
+                    "positionDefinitionsResource": "mtr:definition_e004fd78.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_43863eed.json",
+                    "positionDefinitionsResource": "mtr:definition_40f858a2.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3503lnwrpid_trailer_2",
+            "name": "Class 350/3 (LNWR, with PID) (Trailer, without pantograph))",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_b87fcbd1.json",
+                    "positionDefinitionsResource": "mtr:definition_3b66e694.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_d8b6f75.json",
+                    "positionDefinitionsResource": "mtr:definition_b7f4b38f.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_1b1cdcb3.json",
+                    "positionDefinitionsResource": "mtr:definition_deeb6a2c.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3503lnwrpid_cab_1",
+            "name": "Class 350/3 (LNWR, with PID) Cab (Forwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_c042464.json",
+                    "positionDefinitionsResource": "mtr:definition_fdb9cfcb.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_594b37fc.json",
+                    "positionDefinitionsResource": "mtr:definition_f0985d44.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_e5317017.json",
+                    "positionDefinitionsResource": "mtr:definition_b0ab9a2.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3503lnwrpid_cab_2",
+            "name": "Class 350/3 (LNWR, with PID) Cab (Backwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_5a56d236.json",
+                    "positionDefinitionsResource": "mtr:definition_f0bd8210.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_f8178899.json",
+                    "positionDefinitionsResource": "mtr:definition_e6f67270.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3503lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_3fe10679.json",
+                    "positionDefinitionsResource": "mtr:definition_6d755a13.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+				{
+            "id": "mtr_custom_train_class3504tpe_trailer",
+            "name": "Class 350/4 (TPE Debut livery) (Trailer, with pantograph)",
+            "color": "404040",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504tpe.png",
+                    "modelPropertiesResource": "mtr:properties_e84569ba.json",
+                    "positionDefinitionsResource": "mtr:definition_bffa8189.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504tpe.png",
+                    "modelPropertiesResource": "mtr:properties_aa1bdf25.json",
+                    "positionDefinitionsResource": "mtr:definition_e18ba3bd.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504tpe.png",
+                    "modelPropertiesResource": "mtr:properties_591ce372.json",
+                    "positionDefinitionsResource": "mtr:definition_63e984f0.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3504tpe_trailer_2",
+            "name": "Class 350/4 (TPE Debut livery) (Trailer, without pantograph))",
+            "color": "404040",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504tpe.png",
+                    "modelPropertiesResource": "mtr:properties_13ae91e9.json",
+                    "positionDefinitionsResource": "mtr:definition_16e6c1c0.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504tpe.png",
+                    "modelPropertiesResource": "mtr:properties_41c88190.json",
+                    "positionDefinitionsResource": "mtr:definition_ed8c582b.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504tpe.png",
+                    "modelPropertiesResource": "mtr:properties_1366e48a.json",
+                    "positionDefinitionsResource": "mtr:definition_ec19528.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3504tpe_cab_1",
+            "name": "Class 350/4 (TPE Debut livery) Cab (Forwards)",
+            "color": "404040",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504tpe.png",
+                    "modelPropertiesResource": "mtr:properties_6721b34b.json",
+                    "positionDefinitionsResource": "mtr:definition_fe270574.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504tpe.png",
+                    "modelPropertiesResource": "mtr:properties_c2637bf8.json",
+                    "positionDefinitionsResource": "mtr:definition_207df1e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504tpe.png",
+                    "modelPropertiesResource": "mtr:properties_66321013.json",
+                    "positionDefinitionsResource": "mtr:definition_bfdc3c70.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3504tpe_cab_2",
+            "name": "Class 350/4 (TPE Debut livery) Cab (Backwards)",
+            "color": "404040",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504tpe.png",
+                    "modelPropertiesResource": "mtr:properties_1516c020.json",
+                    "positionDefinitionsResource": "mtr:definition_971809be.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504tpe.png",
+                    "modelPropertiesResource": "mtr:properties_cf6e0a69.json",
+                    "positionDefinitionsResource": "mtr:definition_a05020e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504tpe.png",
+                    "modelPropertiesResource": "mtr:properties_9a1ee41d.json",
+                    "positionDefinitionsResource": "mtr:definition_20926049.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+				{
+            "id": "mtr_custom_train_class3504lnwr_trailer",
+            "name": "Class 350/4 (LNWR) (Trailer, with pantograph)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_e84569ba.json",
+                    "positionDefinitionsResource": "mtr:definition_bffa8189.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_aa1bdf25.json",
+                    "positionDefinitionsResource": "mtr:definition_e18ba3bd.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_591ce372.json",
+                    "positionDefinitionsResource": "mtr:definition_63e984f0.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3504lnwr_trailer_2",
+            "name": "Class 350/4 (LNWR) (Trailer, without pantograph))",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_13ae91e9.json",
+                    "positionDefinitionsResource": "mtr:definition_16e6c1c0.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_41c88190.json",
+                    "positionDefinitionsResource": "mtr:definition_ed8c582b.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_1366e48a.json",
+                    "positionDefinitionsResource": "mtr:definition_ec19528.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3504lnwr_cab_1",
+            "name": "Class 350/4 (LNWR) Cab (Forwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_6721b34b.json",
+                    "positionDefinitionsResource": "mtr:definition_fe270574.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_c2637bf8.json",
+                    "positionDefinitionsResource": "mtr:definition_207df1e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_66321013.json",
+                    "positionDefinitionsResource": "mtr:definition_bfdc3c70.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3504lnwr_cab_2",
+            "name": "Class 350/4 (LNWR) Cab (Backwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_1516c020.json",
+                    "positionDefinitionsResource": "mtr:definition_971809be.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_cf6e0a69.json",
+                    "positionDefinitionsResource": "mtr:definition_a05020e4.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwr.png",
+                    "modelPropertiesResource": "mtr:properties_9a1ee41d.json",
+                    "positionDefinitionsResource": "mtr:definition_20926049.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+		{
+            "id": "mtr_custom_train_class3504lnwrpid_trailer",
+            "name": "Class 350/4 (LNWR, with PID) (Trailer, with pantograph)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_4d14db99.json",
+                    "positionDefinitionsResource": "mtr:definition_13b6ab4.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_49e1dac2.json",
+                    "positionDefinitionsResource": "mtr:definition_e004fd78.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_43863eed.json",
+                    "positionDefinitionsResource": "mtr:definition_40f858a2.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3504lnwrpid_trailer_2",
+            "name": "Class 350/4 (LNWR, with PID) (Trailer, without pantograph))",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_b87fcbd1.json",
+                    "positionDefinitionsResource": "mtr:definition_3b66e694.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_d8b6f75.json",
+                    "positionDefinitionsResource": "mtr:definition_b7f4b38f.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_1b1cdcb3.json",
+                    "positionDefinitionsResource": "mtr:definition_deeb6a2c.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3504lnwrpid_cab_1",
+            "name": "Class 350/4 (LNWR, with PID) Cab (Forwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_c042464.json",
+                    "positionDefinitionsResource": "mtr:definition_fdb9cfcb.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_594b37fc.json",
+                    "positionDefinitionsResource": "mtr:definition_f0985d44.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_e5317017.json",
+                    "positionDefinitionsResource": "mtr:definition_b0ab9a2.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class3504lnwrpid_cab_2",
+            "name": "Class 350/4 (LNWR, with PID) Cab (Backwards)",
+            "color": "004C45",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_350",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_5a56d236.json",
+                    "positionDefinitionsResource": "mtr:definition_f0bd8210.json",
+                    "flipTextureV": false
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_f8178899.json",
+                    "positionDefinitionsResource": "mtr:definition_e6f67270.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3504lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_3fe10679.json",
+                    "positionDefinitionsResource": "mtr:definition_6d755a13.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class450swt_trailer",
+            "name": "Class 450 (SWT) (Trailer, with pantograph space)",
+            "color": "FF8000",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_450",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class450swt.png",
+                    "modelPropertiesResource": "mtr:properties_1150d5de.json",
+                    "positionDefinitionsResource": "mtr:definition_146eb54a.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_3bdf4d06.json",
+                    "positionDefinitionsResource": "mtr:definition_a45d9d7c.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_d215f732.json",
+                    "positionDefinitionsResource": "mtr:definition_1a1f98db.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_2df7cb6.json",
+                    "positionDefinitionsResource": "mtr:definition_9a0d8ea8.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class450swt_trailer_2",
+            "name": "Class 450 (SWT) (Trailer)",
+            "color": "FF8000",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_450",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class450swt.png",
+                    "modelPropertiesResource": "mtr:properties_d87475a0.json",
+                    "positionDefinitionsResource": "mtr:definition_1558ca52.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_625b1f5b.json",
+                    "positionDefinitionsResource": "mtr:definition_a4aaf458.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_5cb88e64.json",
+                    "positionDefinitionsResource": "mtr:definition_f89e3770.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_7c19137e.json",
+                    "positionDefinitionsResource": "mtr:definition_24d35135.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class450swt_cab_1",
+            "name": "Class 450 (SWT) Cab (Forwards)",
+            "color": "FF8000",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_450",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class450swt.png",
+                    "modelPropertiesResource": "mtr:properties_6660a291.json",
+                    "positionDefinitionsResource": "mtr:definition_8c8bbbf4.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_c8af7c3b.json",
+                    "positionDefinitionsResource": "mtr:definition_3e2d6d28.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_78149251.json",
+                    "positionDefinitionsResource": "mtr:definition_89ec2095.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_61fddb30.json",
+                    "positionDefinitionsResource": "mtr:definition_283913e1.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": false,
+            "hasGangway2": true,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+            "id": "mtr_custom_train_class450swt_cab_2",
+            "name": "Class 450 (SWT) Cab (Backwards)",
+            "color": "FF8000",
+            "transportMode": "TRAIN",
+            "length": 20,
+            "width": 2,
+            "bogie1Position": -6.8,
+            "bogie2Position": 6.8,
+            "couplingPadding1": 0,
+            "couplingPadding2": 0,
+            "description": "",
+            "wikipediaArticle": "British_Rail_Class_450",
+            "tags": [],
+            "models": [
+                {
+                    "modelResource": "mtr:class350/class3502.bbmodel",
+                    "textureResource": "mtr:class350/class450swt.png",
+                    "modelPropertiesResource": "mtr:properties_483b4f06.json",
+                    "positionDefinitionsResource": "mtr:definition_e1411c86.json",
+                    "flipTextureV": false
+                },
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/350_connector_exterior.png",
+                    "modelPropertiesResource": "mtr:properties_5015e8b1.json",
+                    "positionDefinitionsResource": "mtr:definition_ceec51e7.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie1Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_b70ad286.json",
+                    "positionDefinitionsResource": "mtr:definition_7f8d197b.json",
+                    "flipTextureV": true
+                }
+            ],
+            "bogie2Models": [
+                {
+                    "modelResource": "mtr:class350/class350.bbmodel",
+                    "textureResource": "mtr:class350/class3501lnwrpid.png",
+                    "modelPropertiesResource": "mtr:properties_96659918.json",
+                    "positionDefinitionsResource": "mtr:definition_91d9893e.json",
+                    "flipTextureV": true
+                }
+            ],
+            "hasGangway1": true,
+            "hasGangway2": false,
+            "hasBarrier1": false,
+            "hasBarrier2": false,
+            "legacyRiderOffset": 0,
+            "bveSoundBaseResource": "05mtr",
+            "legacySpeedSoundBaseResource": "",
+            "legacySpeedSoundCount": 1,
+            "legacyUseAccelerationSoundsWhenCoasting": false,
+            "legacyConstantPlaybackSpeed": false,
+            "legacyDoorSoundBaseResource": "",
+            "legacyDoorCloseSoundTime": 0
+        },
+        {
+			"id": "CUM_HEAD",
+			"name": "0seriesH",
+			"color": "4093F0",
+			"transportMode": "TRAIN",
+			"length": 17,
+			"width": 2,
+			"bogie1Position": -5.5,
+			"bogie2Position": 5.5,
+			"couplingPadding1": -0.2,
+			"couplingPadding2": -0.2,
+			"wikipediaArticle": "",
+			"tags": [
+				"family:monorail",
+				"iso_3166:RU",
+				"doors:2",
+				"type:cab_1"
+			],
+			"models": [
+				{
+					"modelResource": "mtr:cum/0_series_head.obj",
+					"textureResource": "mtr:cum/dark.png",
+					"modelPropertiesResource": "mtr:cum/properties/0_head.json",
+					"positionDefinitionsResource": "mtr:cum/properties/0_head_def.json",
+                    "flipTextureV": true
+                },
+                {
+					"modelResource": "mtr:cum/floor.bbmodel",
+					"textureResource": "mtr:cum/dark.png",
+					"modelPropertiesResource": "mtr:cum/properties/0_head.json",
+					"positionDefinitionsResource": "mtr:cum/properties/0_head_def.json"
+				}
+			],
+			"bogie1Models": [
+				{
+					"modelResource": "mtr:cum/bogey_3.obj",
+					"textureResource": "mtr:textures/vehicle/bogie_1.png",
+					"modelPropertiesResource": "mtr:cum/properties/bogie_3.json",
+					"positionDefinitionsResource": "mtr:cum/properties/origin.json",
+                    "flipTextureV": true
+				}
+			],
+			"bogie2Models": [
+				{
+					"modelResource": "mtr:cum/bogey_3.obj",
+					"textureResource": "mtr:textures/vehicle/bogie_1.png",
+					"modelPropertiesResource": "mtr:cum/properties/bogie_3.json",
+					"positionDefinitionsResource": "mtr:cum/properties/origin.json",
+                    "flipTextureV": true
+				}
+			],
+			"hasGangway1": false,
+			"hasGangway2": true,
+			"bveSoundBaseResource": "05mtr"
+		},{
+			"id": "CUM_REAR",
+			"name": "0serieRH",
+			"color": "4093F0",
+			"transportMode": "TRAIN",
+			"length": 17,
+			"width": 2,
+			"bogie1Position": -5.5,
+			"bogie2Position": 5.5,
+			"couplingPadding1": -0.2,
+			"couplingPadding2": -0.2,
+			"wikipediaArticle": "",
+			"tags": [
+				"family:monorail",
+				"iso_3166:RU",
+				"doors:2",
+				"type:cab_2"
+			],
+			"models": [
+				{
+					"modelResource": "mtr:cum/0_series_rear.obj",
+					"textureResource": "mtr:cum/dark.png",
+					"modelPropertiesResource": "mtr:cum/properties/0_rear.json",
+					"positionDefinitionsResource": "mtr:cum/properties/0_head_def.json",
+                    "flipTextureV": true
+                },
+                {
+					"modelResource": "mtr:cum/floor.bbmodel",
+					"textureResource": "mtr:cum/dark.png",
+					"modelPropertiesResource": "mtr:cum/properties/0_rear.json",
+					"positionDefinitionsResource": "mtr:cum/properties/0_head_def.json"
+				}
+			],
+			"bogie1Models": [
+				{
+					"modelResource": "mtr:cum/bogey_3.obj",
+					"textureResource": "mtr:textures/vehicle/bogie_1.png",
+					"modelPropertiesResource": "mtr:cum/properties/bogie_3.json",
+					"positionDefinitionsResource": "mtr:cum/properties/origin.json",
+                    "flipTextureV": true
+				}
+			],
+			"bogie2Models": [
+				{
+					"modelResource": "mtr:cum/bogey_3.obj",
+					"textureResource": "mtr:textures/vehicle/bogie_1.png",
+					"modelPropertiesResource": "mtr:cum/properties/bogie_3.json",
+					"positionDefinitionsResource": "mtr:cum/properties/origin.json",
+                    "flipTextureV": true
+				}
+			],
+			"hasGangway1": true,
+			"hasGangway2": false,
+			"bveSoundBaseResource": "05mtr"
 		}
-	}
+    ],
+    "signs": [],
+    "rails": [],
+    "objects": []
 }

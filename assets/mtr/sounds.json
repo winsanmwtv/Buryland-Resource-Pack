@@ -1,147 +1,192 @@
 {
 	"motor0": {
 		"sounds": [
-			"mtr:motor0"
+			"motor0"
 		]
 	},
 	"4eba_4040.sound.doorcls": {
 		"sounds": [
-			"mtr:4eba_4040/sound/doorcls"
+			"4eba_4040/sound/doorcls"
 		]
 	},
 	"4eba_4040.sound.dooropn": {
 		"sounds": [
-			"mtr:4eba_4040/sound/dooropn"
+			"4eba_4040/sound/dooropn"
 		]
 	},
 	"4eba_4040.sound.loop": {
 		"sounds": [
-			"mtr:4eba_4040/sound/loop"
+			"4eba_4040/sound/loop"
 		]
 	},
 	"4eba_4040.sound.motor0": {
 		"sounds": [
-			"mtr:4eba_4040/sound/motor0"
+			"4eba_4040/sound/motor0"
 		]
 	},
 	"4eba_4040.sound.motor1": {
 		"sounds": [
-			"mtr:4eba_4040/sound/motor1"
+			"4eba_4040/sound/motor1"
 		]
 	},
 	"4eba_4040.sound.motor2": {
 		"sounds": [
-			"mtr:4eba_4040/sound/motor2"
+			"4eba_4040/sound/motor2"
 		]
 	},
 	"4eba_4040.sound.motor3": {
 		"sounds": [
-			"mtr:4eba_4040/sound/motor3"
+			"4eba_4040/sound/motor3"
 		]
 	},
 	"4eba_4040.sound.motor4": {
 		"sounds": [
-			"mtr:4eba_4040/sound/motor4"
+			"4eba_4040/sound/motor4"
 		]
 	},
 	"4eba_4040.sound.motor5": {
 		"sounds": [
-			"mtr:4eba_4040/sound/motor5"
+			"4eba_4040/sound/motor5"
 		]
 	},
 	"4eba_4040.sound.motor6": {
 		"sounds": [
-			"mtr:4eba_4040/sound/motor6"
+			"4eba_4040/sound/motor6"
 		]
 	},
 	"4eba_4040.sound.motor7": {
 		"sounds": [
-			"mtr:4eba_4040/sound/motor7"
+			"4eba_4040/sound/motor7"
 		]
 	},
 	"4eba_4040.sound.motor8": {
 		"sounds": [
-			"mtr:4eba_4040/sound/motor8"
+			"4eba_4040/sound/motor8"
 		]
 	},
 	"4eba_4040.sound.motor9": {
 		"sounds": [
-			"mtr:4eba_4040/sound/motor9"
+			"4eba_4040/sound/motor9"
 		]
 	},
 	"4eba_4040.sound.point": {
 		"sounds": [
-			"mtr:4eba_4040/sound/point"
+			"4eba_4040/sound/point"
 		]
 	},
 	"4eba_4040.sound.run0": {
 		"sounds": [
-			"mtr:4eba_4040/sound/run0"
+			"4eba_4040/sound/run0"
 		]
 	},
 	"diesel.airzero": {
 		"sounds": [
-			"mtr:diesel/airzero"
+			"diesel/airzero"
 		]
 	},
 	"diesel.doorcls": {
 		"sounds": [
-			"mtr:diesel/doorcls"
+			"diesel/doorcls"
 		]
 	},
 	"diesel.dooropn": {
 		"sounds": [
-			"mtr:diesel/dooropn"
+			"diesel/dooropn"
 		]
 	},
 	"diesel.flange": {
 		"sounds": [
-			"mtr:diesel/flange"
+			"diesel/flange"
 		]
 	},
 	"diesel.loop": {
 		"sounds": [
-			"mtr:diesel/loop"
+			"diesel/loop"
 		]
 	},
 	"diesel.motor0": {
 		"sounds": [
-			"mtr:diesel/motor0"
+			"diesel/motor0"
 		]
 	},
 	"diesel.motor1": {
 		"sounds": [
-			"mtr:diesel/motor1"
+			"diesel/motor1"
 		]
 	},
 	"diesel.motor3": {
 		"sounds": [
-			"mtr:diesel/motor3"
+			"diesel/motor3"
 		]
 	},
 	"diesel.motor4": {
 		"sounds": [
-			"mtr:diesel/motor4"
+			"diesel/motor4"
 		]
 	},
 	"diesel.point": {
 		"sounds": [
-			"mtr:diesel/point"
+			"diesel/point"
 		]
 	},
 	"diesel.rub": {
 		"sounds": [
-			"mtr:diesel/rub"
+			"diesel/rub"
 		]
 	},
 	"diesel.run": {
 		"sounds": [
-			"mtr:diesel/run"
+			"diesel/run"
 		]
 	},
 	"diesel.stasiun": {
 		"sounds": [
-			"mtr:diesel/stasiun"
+			"diesel/stasiun"
+		]
+	},
+	"mono.airhigh": {
+		"sounds": [
+			"mono/airhigh"
+		]
+	},
+	"mono.airzero": {
+		"sounds": [
+			"mono/airzero"
+		]
+	},
+	"mono.door": {
+		"sounds": [
+			"mono/door"
+		]
+	},
+	"mono.motor0": {
+		"sounds": [
+			"mono/motor0"
+		]
+	},
+	"mono.motor1": {
+		"sounds": [
+			"mono/motor1"
+		]
+	},
+	"mono.motor11": {
+		"sounds": [
+			"mono/motor11"
+		]
+	},
+	"mono.motor2": {
+		"sounds": [
+			"mono/motor2"
+		]
+	},
+	"mono.run": {
+		"sounds": [
+			"mono/run"
+		]
+	},
+	"mono.run1": {
+		"sounds": [
+			"mono/run1"
 		]
 	}
 }
